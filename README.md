@@ -28,21 +28,19 @@ The main focus is on **query reformulation techniques** that leverage deep conte
 
 ---
 
-### 📂 Structure
----
-dl4ir-query-reformulator/
-│
-├── reformulator/ # Main reformulation models and logic
-│ ├── encoder.py # Transformer encoder wrapper
-│ ├── reformulate.py # Query rewriting logic
-│ └── utils.py # Tokenization, padding, attention masking
-│
-├── dataset/ # Dataset handlers and preprocessing scripts
-├── configs/ # Model and training configurations
-├── experiments/ # Notebook & scripts for testing ideas
-├── train.py # Main training entry point
-└── README.md # (You are here)
----
+### 📂 Project Structure
+
+| Path                        | Description                                      |
+|----------------------------|--------------------------------------------------|
+| `reformulator/`            | Core query reformulation module                 |
+| ├── `encoder.py`           | Transformer encoder wrapper (e.g., BERT)        |
+| ├── `reformulate.py`       | Query rewriting logic                           |
+| └── `utils.py`             | Tokenization, padding, and attention masking    |
+| `dataset/`                 | Dataset loader and preprocessing scripts        |
+| `configs/`                 | Configuration files for model/training          |
+| `experiments/`             | Jupyter notebooks and testing scripts           |
+| `train.py`                 | Main training script                            |
+| `README.md`                | Project documentation (this file)               |
 
 
 ---
