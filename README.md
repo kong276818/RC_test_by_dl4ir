@@ -29,7 +29,7 @@ The main focus is on **query reformulation techniques** that leverage deep conte
 ---
 
 ### 📂 Structure
-
+---
 dl4ir-query-reformulator/
 │
 ├── reformulator/ # Main reformulation models and logic
@@ -42,7 +42,7 @@ dl4ir-query-reformulator/
 ├── experiments/ # Notebook & scripts for testing ideas
 ├── train.py # Main training entry point
 └── README.md # (You are here)
-
+---
 
 
 ---
